@@ -7,7 +7,7 @@ const IndexPage = () => (
     <div>
 
       <p> loreaiuenatueisrtausrietarsetsraetsarsuei</p>
-      <button class="btn btn-outline">neutral</button> 
+      <button class="btn btn-outline btn-primary">neutral</button> 
     </div>
   </Layout>
 )

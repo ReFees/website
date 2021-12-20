@@ -12,11 +12,10 @@ import Header from "./Header"
 
 const Layout: FunctionComponent<{ pageName?: string, className?: string }> = ({ children, pageName, ...props }) => {
     return (
-        <div {...props} className={classnames(props.className, "relative pattern-dots text-opacity-10 text-primary-200 overflow-x-hidden")}>
+        <div {...props} className={classnames(props.className, "gap-6 lg:p-10 lg:bg-base-100")}>
 
             <SEO pageName={pageName} />
     
-            <div className="absolute  bg-primary-500 h-screen w-full opacity-20" /> { /* TODO: radial gradient with styled.div */ }
 
             <div className="relative z-10">
 
