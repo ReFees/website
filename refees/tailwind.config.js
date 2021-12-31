@@ -5,7 +5,8 @@ module.exports = {
   daisyui: {
     styled: true,
     themes: [
-      'dark',   
+      'dark', 
+      'light'  
     ],
   },
 }

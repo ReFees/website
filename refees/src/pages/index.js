@@ -1,5 +1,5 @@
 import React from "react"
-import Container from "../components/Container"
+import Team from "../components/Team"
 import Hero from "../components/Hero"
 import Layout from "../components/baseLayout/Layout"
 import Stats from "../components/Stats"
@@ -11,6 +11,8 @@ const IndexPage = () => (
       <Hero/>
 
       <Stats/>
+
+      <Team/>
     </div>
   </Layout>
 )
