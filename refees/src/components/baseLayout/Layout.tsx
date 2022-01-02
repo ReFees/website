@@ -9,6 +9,7 @@ import Container from "../Container"
 import Footer from "./Footer"
 //import NewsletterSubscribe from "./NewsletterSubscribe"
 import Header from "./Header"
+import Contact from "./Contact"
 
 const Layout: FunctionComponent<{ pageName?: string; className?: string }> = ({
   children,
@@ -24,6 +25,7 @@ const Layout: FunctionComponent<{ pageName?: string; className?: string }> = ({
 
       <Header />
       {children}
+      <Contact/>
       <Footer />
     </div>
   )
