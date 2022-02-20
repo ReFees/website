@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
 const Contact = () => (
-  <div className="mb-2 pb-8 shadow-lg bg-neutral text-neutral-content rounded-box">
+  <div className="mb-2 pb-8 shadow-lg bg-base-200 text-neutral-content rounded-box">
     <div className="p-10 text-base-content rounded-box">
       <div className="grid h-20 place-items-center">
         <span className="footer-title">Contact us</span>
@@ -23,6 +23,6 @@ const Contact = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Contact
+export default Contact;

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Hero = () => (
   <div className="hero min-h-screen bg-base-200 rounded-box">
@@ -18,6 +18,6 @@ const Hero = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Hero
+export default Hero;

@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
 export default function Stats() {
   return (
-    <div className="w-full shadow stats">
+    <div className="shadow stats">
       <div className="stat">
         <div className="stat-figure text-primary">
           <svg
@@ -23,8 +23,9 @@ export default function Stats() {
         <div className="stat-value text-primary">25.6K</div>
         <div className="stat-desc">21% more than last month</div>
       </div>
+
       <div className="stat">
-        <div className="stat-figure text-info">
+        <div className="stat-figure text-secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -40,25 +41,22 @@ export default function Stats() {
           </svg>
         </div>
         <div className="stat-title">Page Views</div>
-        <div className="stat-value text-info">2.6M</div>
+        <div className="stat-value text-secondary">2.6M</div>
         <div className="stat-desc">21% more than last month</div>
       </div>
+
       <div className="stat">
-        <div className="stat-figure text-info">
+        <div className="stat-figure text-secondary">
           <div className="avatar online">
-            <div className="w-16 h-16 p-1 mask mask-squircle bg-base-100">
-              <img
-                src="/tailwind-css-component-profile-5@56w.png"
-                alt="Avatar Tailwind CSS Component"
-                className="mask mask-squircle"
-              />
+            <div className="w-16 rounded-full">
+              <img src="https://api.lorem.space/image/face?w=128&h=128" />
             </div>
           </div>
         </div>
         <div className="stat-value">86%</div>
         <div className="stat-title">Tasks done</div>
-        <div className="stat-desc text-info">31 tasks remaining</div>
+        <div className="stat-desc text-secondary">31 tasks remaining</div>
       </div>
     </div>
-  )
+  );
 }
