@@ -4,7 +4,7 @@ module.exports = {
     description: `a subscription-based model to hedge Gas
         Fees on the Ethereum Blockchain`,
     author: `refees`,
-    baseUrl: `https://refees.fi`,
+    baseUrl: `https://refees.org`,
   },
   plugins: [
     {
