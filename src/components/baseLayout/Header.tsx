@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-
 import logo from "../../images/logo.svg";
 import ThemeChanger from "../ThemeChanger";
 
@@ -14,7 +13,10 @@ const Menu = ({ isCompact }) => (
     }
   >
     <li>
-      <a>About</a>
+      <a>
+        {" "}
+        <Link to="/">Home</Link>
+      </a>
     </li>
     <li tabIndex={0} className={isCompact ? "justify-between" : ""}>
       <a>
@@ -39,7 +41,9 @@ const Menu = ({ isCompact }) => (
       </ul>
     </li>
     <li>
-      <a>FAQ</a>
+      <a>
+        <Link to="/FAQ">FAQ</Link>
+      </a>
     </li>
   </ul>
 );

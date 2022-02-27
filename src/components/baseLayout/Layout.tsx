@@ -1,15 +1,13 @@
-import React, { FunctionComponent } from "react"
+import React, { FunctionComponent } from "react";
 
-import classnames from "classnames"
+import classnames from "classnames";
 
-import styled, { keyframes } from "styled-components"
-
-import SEO from "../SEO"
-import Container from "../Container"
-import Footer from "./Footer"
+import SEO from "../SEO";
+import Container from "../Container";
+import Footer from "./Footer";
 //import NewsletterSubscribe from "./NewsletterSubscribe"
-import Header from "./Header"
-import Contact from "./Contact"
+import Header from "./Header";
+import Contact from "./Contact";
 
 const Layout: FunctionComponent<{ pageName?: string; className?: string }> = ({
   children,
@@ -25,10 +23,10 @@ const Layout: FunctionComponent<{ pageName?: string; className?: string }> = ({
 
       <Header />
       {children}
-      <Contact/>
+      <Contact />
       <Footer />
     </div>
-  )
-}
+  );
+};
 //<Container children={<NewsletterSubscribe />} className="mt-32" />
-export default Layout
+export default Layout;
